@@ -4,7 +4,7 @@ $dbUsername = 'root';
 $dbPassword = '123456789';
 $dbName = 'alegria';
 
-$conexao= new mysqli($dbHost,$dbUsername,$dbPassword,$dbName);
+$conexao= new mysqli(localhost,root,123456789,alegria);
 if ($conexao->connect_errno){
 die("ERRO NA CONEXÃO:" . $conexao->connect_error);
 
